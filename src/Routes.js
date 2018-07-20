@@ -8,11 +8,11 @@ import CoursesPage                              from './components/course/Course
 const Routes = () => (
     <main>
       <Switch>
-        <Route exact path='/' component={HomePage}/>
-        <Route path='/about' component={AboutPage}/>
-        <Route path='/courses' component={CoursesPage}/>
+        <Route exact path="/" component={HomePage}/>
+        <Route path="/about" component={AboutPage}/>
+        <Route path="/courses" component={CoursesPage}/>
       </Switch>
     </main>
-  )
+  );
 
   export default Routes;
